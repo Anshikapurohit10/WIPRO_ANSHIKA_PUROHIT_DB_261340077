@@ -9,7 +9,30 @@
 | 101 | Jayson | Mark | Cricket, Swimming, Football |
 | 102 | Ram | Ganesh | Swimming, Running, Music |
 | 103 | Raj | Kishore | Dancing, Singing, Running |
+### SQL Query
 
+```sql
+CREATE TABLE MEMBER_1NF (
+    MEMBER_ID NUMBER,
+    FIRST_NAME VARCHAR2(30),
+    LAST_NAME VARCHAR2(30),
+    HOBBY VARCHAR2(30)
+);
+
+INSERT INTO MEMBER_1NF VALUES (101,'Jayson','Mark','Cricket');
+INSERT INTO MEMBER_1NF VALUES (101,'Jayson','Mark','Swimming');
+INSERT INTO MEMBER_1NF VALUES (101,'Jayson','Mark','Football');
+INSERT INTO MEMBER_1NF VALUES (102,'Ram','Ganesh','Swimming');
+INSERT INTO MEMBER_1NF VALUES (102,'Ram','Ganesh','Running');
+INSERT INTO MEMBER_1NF VALUES (102,'Ram','Ganesh','Music');
+INSERT INTO MEMBER_1NF VALUES (103,'Raj','Kishore','Dancing');
+INSERT INTO MEMBER_1NF VALUES (103,'Raj','Kishore','Singing');
+INSERT INTO MEMBER_1NF VALUES (103,'Raj','Kishore','Running');
+
+COMMIT;
+
+SELECT * FROM MEMBER_1NF;
+```
 ### Answer (1NF)
 
 | Member_Id | First_Name | Last_Name | Hobby |
