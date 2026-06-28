@@ -36,6 +36,7 @@
 | 10 | Sales | Delhi |
 
 ### SQL query
+```sql
 CREATE TABLE DEPARTMENT (
     DEPTNO NUMBER PRIMARY KEY,
     DNAME VARCHAR2(30),
@@ -58,6 +59,7 @@ COMMIT;
 
 SELECT * FROM EMPLOYEE;
 SELECT * FROM DEPARTMENT;
+```
 ---
 
 ## Question 2
@@ -100,6 +102,7 @@ SELECT * FROM DEPARTMENT;
 |-------|--------|
 | 95 | A+ |
 ### SQL query
+```sql
 CREATE TABLE STUDENT (
     ROLLNO NUMBER PRIMARY KEY,
     NAME VARCHAR2(30),
@@ -129,6 +132,7 @@ COMMIT;
 SELECT * FROM STUDENT;
 SELECT * FROM RESULT;
 SELECT * FROM GRADE;
+```
 ---
 
 ## Question 3
@@ -165,6 +169,7 @@ SELECT * FROM GRADE;
 |------------|--------------|
 | P101 | ABC Ltd |
 ### SQL query
+```sql
 CREATE TABLE PROJECT (
     PROJECT_NO VARCHAR2(10) PRIMARY KEY,
     CUSTOMERNAME VARCHAR2(50)
@@ -186,6 +191,7 @@ COMMIT;
 
 SELECT * FROM EMPLOYEE_PROJECT;
 SELECT * FROM PROJECT;
+```
 ---
 |------------|--------------|
 | P101 | ABC Ltd |
