@@ -192,6 +192,6 @@ COMMIT;
 SELECT * FROM EMPLOYEE_PROJECT;
 SELECT * FROM PROJECT;
 ```
----
+
 |------------|--------------|
 | P101 | ABC Ltd |
