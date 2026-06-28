@@ -168,6 +168,7 @@ SELECT * FROM GRADE;
 | PROJECT_NO | CUSTOMERNAME |
 |------------|--------------|
 | P101 | ABC Ltd |
+
 ### SQL query
 ```sql
 CREATE TABLE PROJECT (
@@ -191,7 +192,9 @@ COMMIT;
 
 SELECT * FROM EMPLOYEE_PROJECT;
 SELECT * FROM PROJECT;
+
 ```
+---
 
 |------------|--------------|
 | P101 | ABC Ltd |
