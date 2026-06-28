@@ -34,6 +34,8 @@
 | DEPTNO | DNAME | LOC |
 |--------|--------|------|
 | 10 | Sales | Delhi |
+
+### SQL query
 CREATE TABLE DEPARTMENT (
     DEPTNO NUMBER PRIMARY KEY,
     DNAME VARCHAR2(30),
@@ -97,6 +99,7 @@ SELECT * FROM DEPARTMENT;
 | MARKS | GRADE |
 |-------|--------|
 | 95 | A+ |
+### SQL query
 CREATE TABLE STUDENT (
     ROLLNO NUMBER PRIMARY KEY,
     NAME VARCHAR2(30),
@@ -161,7 +164,7 @@ SELECT * FROM GRADE;
 | PROJECT_NO | CUSTOMERNAME |
 |------------|--------------|
 | P101 | ABC Ltd |
-
+### SQL query
 CREATE TABLE PROJECT (
     PROJECT_NO VARCHAR2(10) PRIMARY KEY,
     CUSTOMERNAME VARCHAR2(50)
