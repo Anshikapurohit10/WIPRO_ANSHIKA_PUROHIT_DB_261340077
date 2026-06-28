@@ -149,6 +149,7 @@ SELECT * FROM GRADE;
 
 **Convert into 2NF**
 
+
 ### EMPLOYEE_PROJECT Table
 
 | EMPNO | PROJECT_NO | NO_OF_DAYS |
@@ -160,6 +161,7 @@ SELECT * FROM GRADE;
 | PROJECT_NO | CUSTOMERNAME |
 |------------|--------------|
 | P101 | ABC Ltd |
+
 CREATE TABLE PROJECT (
     PROJECT_NO VARCHAR2(10) PRIMARY KEY,
     CUSTOMERNAME VARCHAR2(50)
@@ -181,4 +183,6 @@ COMMIT;
 
 SELECT * FROM EMPLOYEE_PROJECT;
 SELECT * FROM PROJECT;
-
+---
+|------------|--------------|
+| P101 | ABC Ltd |
